@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 72d2f08ab55ccdd419ced0799d6d1763
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dropIngredientClip: {fileID: 8300000, guid: f0d178d9342cb8945bc90d59a25b5697, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+// id_name_description_item1_item2_item3
+101_Sleep potion_makes me fall asleep quickly_001_003
+102_Health potion_makes me healthy_001_002
+103_Energy potion_makes me energized_001_005
+104_Strength potion_makes me strong_004_006
+105_Anti-age potion_makes me look at least 10 years younger_003_005
+106_Poison_makes someone have a stomach ache_002_003

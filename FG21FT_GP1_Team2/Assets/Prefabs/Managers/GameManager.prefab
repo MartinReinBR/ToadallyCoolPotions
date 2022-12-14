@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8674757244448300830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8674757244448300816}
+  - component: {fileID: 8674757244448300831}
+  - component: {fileID: 150452060}
+  - component: {fileID: 8914508616605987769}
+  - component: {fileID: 7577405804469551641}
+  - component: {fileID: 1580962743}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8674757244448300816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674757244448300830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.37267, y: 9.952465, z: 4.2900352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8674757244448300831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674757244448300830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56bc75144022c674ea92e8576fefae25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &150452060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674757244448300830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b1bb37a3f964943a56435d34bb0a0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unknownRecipeSprite: {fileID: 21300000, guid: 04463dc06d057b34fae133811debac98, type: 3}
+  unknownSprite: {fileID: 21300000, guid: 4da5630581775f343829cabff715352a, type: 3}
+  missingSprite: {fileID: 21300000, guid: d45df1757db8e7d47a3ad215cf350925, type: 3}
+--- !u!114 &8914508616605987769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674757244448300830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52ff6775e6001e45a730a6c16e487fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseIngredientSpawner: {fileID: 0}
+  npcPrefabs:
+  - {fileID: 1396489125168792110, guid: 0d3424926423bf94d902d4ad500806b6, type: 3}
+  - {fileID: 1396489125168792110, guid: 39e81e1d47588c54c99094197facbf95, type: 3}
+  - {fileID: 1396489125168792110, guid: fb1dac5d502a5474c8add93801a23d57, type: 3}
+--- !u!114 &7577405804469551641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674757244448300830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42bf416ea5e539040865767ef8753a30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customerCount: 0
+  points: 0
+  tutorialStage: 0
+  checkpointValue: 20
+  checkpointSound: {fileID: 8300000, guid: 6fe9a748c68f92a4eb4da8dba1ba8791, type: 3}
+  unlockedIngredients: []
+  unlockedRecipes: []
+  tempRecepies: []
+  tempIngredients: []
+--- !u!114 &1580962743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8674757244448300830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71a36ad0a48fbd4b94b4a54fef50915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,7 @@
+// id_name
+001_Magic mushroom
+002_Red flower
+003_Snail shell
+004_Blue crystal
+005_Unicorn horn 
+006_Red crystal
