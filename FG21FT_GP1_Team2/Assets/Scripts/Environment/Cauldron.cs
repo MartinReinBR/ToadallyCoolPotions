@@ -65,14 +65,14 @@ public class Cauldron : MonoBehaviour
     {
         _id1 = "";
         _id2 = "";
-        CauldronActivationIndicator.SetActive(false); //Dave added
+        CauldronActivationIndicator.SetActive(false); 
     }
 
     public void CraftPotion()
     {
         bool isCrafted =  false;
 
-        if(!isCrafted && _id1 != "" && _id2 != "") //Dave added
+        if(!isCrafted && _id1 != "" && _id2 != "") 
         {
             TempAudioManager.instance.PlaySoundEffect(bubbleSound);
 
@@ -81,10 +81,6 @@ public class Cauldron : MonoBehaviour
             var _ParticleEmission = BoilEffect.emission;
             _ParticleMain.startLifetime = 3f;
             _ParticleEmission.rateOverTime = 15f;
-        }
-        else
-        {
-            //Play klunk sound effect
         }
 
         for (int i = 101; i < GameData.Recipes.Count + 101; i++)
@@ -115,7 +111,7 @@ public class Cauldron : MonoBehaviour
         if(!isCrafted && _id1 != "" && _id2 != "")
         {
             PotionSpawner.GetComponent<SpawnPotion>().SpawnSpecificPotion("666");
-            TempAudioManager.instance.PlaySoundEffect(bubbleSound); //Dave added
+            TempAudioManager.instance.PlaySoundEffect(bubbleSound); 
         }
 
         if (_id1 != "" && _id2 != "")
@@ -136,7 +132,7 @@ public class Cauldron : MonoBehaviour
         _ParticleEmission.rateOverTime = 10f;
     }
 
-    private bool ContainsTwoIngredients() //Dave added
+    private bool ContainsTwoIngredients()
     {
         if(_id1 != "" && _id2 != "")
         {

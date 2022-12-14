@@ -7,6 +7,10 @@ TagManager:
   - Ingredient
   - Potion
   - NPC
+  - CustomerBoundary
+  - TrashcanBoundary
+  - CauldronBoundary
+  - RopeBoundary
   layers:
   - Default
   - TransparentFX

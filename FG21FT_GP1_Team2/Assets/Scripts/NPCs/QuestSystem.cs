@@ -82,12 +82,12 @@ public class QuestSystem : MonoBehaviour
         {
             //inGameUI.GetComponent<InGameUI>().Points = points;
             GameStats.instance.points += points;
-            _gameUI.UpdateCustomers();
+            //_gameUI.UpdateCustomers();
             _gameUI.UpdatePoints();
             
             if(GameStats.instance.points > 50 && GameStats.instance.AllUnlocked())
             {
-                GameStats.instance.ShowESOTY();
+               // GameStats.instance.ShowESOTY();
             }
         }
 
